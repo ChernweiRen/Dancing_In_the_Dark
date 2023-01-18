@@ -1,6 +1,6 @@
 # Dancing In the Dark
 
-PyTorch implementation of a modified-UNet for ultra low light edge extraction inferring, from the following poster for Learning From Data 2022 Fall, Tsinghua University.
+PyTorch implementation of a modified UNet for ultra low light edge extraction inferring, from the following poster for Learning From Data 2022 Fall, Tsinghua University.
 
 Authors:
 Chengwei Ren, Jinnan He and Yuzhu Zhang  
@@ -62,7 +62,7 @@ Set `--resume` to the model checkpoint path.
 Set `--gpu` to specify the GPU for image inferring.
 
 **Tips!!!**  
-The input image must be a RAW image! If you only have RGB images, you should convert RGB images to RAW images through the following two works.  
+The input image must be a RAW image! If you only have RGB images, you should convert it to RAW images through the following two works.  
 [CycleISP](https://github.com/swz30/CycleISP) &
 [InvertibleISP](https://github.com/yzxing87/Invertible-ISP)
 
@@ -78,7 +78,12 @@ then run this.
 ~~~
 bash video_infer.sh
 ~~~
-The output edge result video will be stored in the folder where this video_infer.sh script is located.
+The output edge result video will be stored in the folder where this video_infer.sh script is located.  
+
+**Tips!!!**  
+The input video must be RAW format too! If you only have RGB video, you should convert it to RAW format frame by frame through the following two works.  
+[CycleISP](https://github.com/swz30/CycleISP) &
+[InvertibleISP](https://github.com/yzxing87/Invertible-ISP)
 
 ## Web Video Demo
 [Video Demo](https://www.aliyundrive.com/s/fqscmgxuUEn)
