@@ -58,7 +58,7 @@ python inference.py \
 ~~~
 Set `--input` to the input low-light RAW image path.  
 Set `--result_dir` to the output edge map path.  
-Set `--resume` to the model checkpoint path.
+Set `--resume` to the model checkpoint path.  
 Set `--gpu` to specify the GPU for image inferring.
 
 **Tips!!!**  
