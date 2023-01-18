@@ -62,9 +62,7 @@ Set `--resume` to the model checkpoint path.
 Set `--gpu` to specify the GPU for image inferring.
 
 **Tips!!!**  
-The input image must be a RAW image! If you only have RGB images, you should convert it to RAW images through the following two works.  
-[CycleISP](https://github.com/swz30/CycleISP) &
-[InvertibleISP](https://github.com/yzxing87/Invertible-ISP)
+The input image must be a RAW image! If you only have RGB images, you should convert it to RAW images through the following two works. [CycleISP](https://github.com/swz30/CycleISP) & [InvertibleISP](https://github.com/yzxing87/Invertible-ISP)
 
 ## Video Inference Usage
 Specify the configurations in `video_infer.sh`.  
@@ -81,9 +79,7 @@ bash video_infer.sh
 The output edge result video will be stored in the folder where this video_infer.sh script is located.  
 
 **Tips!!!**  
-The input video must be RAW format too! If you only have RGB video, you should convert it to RAW format frame by frame through the following two works.  
-[CycleISP](https://github.com/swz30/CycleISP) &
-[InvertibleISP](https://github.com/yzxing87/Invertible-ISP)
+The input video must be RAW format too! If you only have RGB video, you should convert it to RAW format frame by frame through the following two works. [CycleISP](https://github.com/swz30/CycleISP) & [InvertibleISP](https://github.com/yzxing87/Invertible-ISP)
 
 ## Web Video Demo
 [Video Demo](https://www.aliyundrive.com/s/fqscmgxuUEn)
